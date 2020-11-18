@@ -1,0 +1,22 @@
+<!--DEBAYAN MAJUMDER 2020-->
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#fca652">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="#fca652" />
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:endColor="#f8efd4"
+                android:startColor="#edc988"
+                android:type="linear" />
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+</ripple>
